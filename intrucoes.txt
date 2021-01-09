@@ -1,0 +1,6 @@
+Saldos de investimento
+
+Fazer login > saldos e extratos > Conta Investimento > Saldo e Iterar e baixar todos os saldos em uma unica pasta.
+Buscar a visualização mais completa.
+Formato do nome do arquivo: saldo_investimento_[cnpj do fundo].csv
+
