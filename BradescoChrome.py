@@ -70,7 +70,7 @@ class Bradesco:
       row.click()
 
       ## Abre o extrato
-      self.wait.until(
+      extrato = self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//*[@id="formSaldos:listagemContaCorrente:_id162:'+str(self.iteratorListaContas)+':listaContasEmpresa:_id221:0:linhaContaSaldo"]/tr[1]'))
       ).click()
 

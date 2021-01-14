@@ -8,34 +8,18 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 import os
 import re
-import os
 
 class Bradesco:
   BASE_PATH = 'https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf'
   cnpj = []
-<<<<<<< HEAD
-  path = '/home/wallace/Downloads'
-  path2 = '/home/wallace/Extratos'
-=======
   path = '/home/marcos/Downloads'
   path2 = '/home/marcos/Extratos'
->>>>>>> fdae348b2bb232f3137dc1d3b385a6592ea7d9d8
   iteratorListaContas = 0
 
 
   def __init__(self):
     self.username = 'LMI00542'
     self.passwd = '32458998'
-<<<<<<< HEAD
-
-    firefox_profile = webdriver.FirefoxProfile()
-
-    firefox_profile.set_preference("browser.download.manager.showWhenStarting",False)
-    firefox_profile.set_preference("browser.download.dir", os.getcwd())
-    firefox_profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream")
-
-    self.driver = webdriver.Firefox(executable_path=r'./geckodriver', firefox_profile = firefox_profile)
-=======
     fp = webdriver.FirefoxProfile()
     fp.set_preference("browser.download.folderList", 2)
     fp.set_preference("browser.download.manager.showWhenStarting", False)
@@ -45,7 +29,6 @@ class Bradesco:
     "text/plain, application/octet-stream, application/binary, text/csv, application/csv, application/excel, text/comma-separated-values, text/xml, application/xml")
     fp.set_preference("pdfjs.disabled", True)
     self.driver = webdriver.Firefox(executable_path=r'./geckodriver', firefox_profile=fp)
->>>>>>> fdae348b2bb232f3137dc1d3b385a6592ea7d9d8
     self.wait = WebDriverWait(self.driver, 60)
 
   def auth(self):
@@ -90,13 +73,15 @@ class Bradesco:
       extrato = self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//*[@id="formSaldos:listagemContaCorrente:_id162:'+str(self.iteratorListaContas)+':listaContasEmpresa:_id221:0:linhaContaSaldo"]/tr[1]'))
       )
-      self.driver.execute_script("arguments[0].scrollIntoView();", extrato)
+      self.driver.execute_script("arguments[0].scrollIntoView(true);", extrato)
+      
       soup = BeautifulSoup(extrato.text, 'html.parser')
       soupString = str(soup).split(' ')
       soupStringT = soupString[0]+ ' ' + soupString[1]+ ' ' + soupString[2]
-      self.wait.until(
+      extrato = self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//td[.="'+ soupStringT +'"]'))
-      ).click()
+      )
+      extrato.click()
 
       ## Clica no botão de salvar
       self.wait.until(
@@ -105,7 +90,6 @@ class Bradesco:
 
       ## Troca o frame
       self.driver.switch_to.default_content()
-
       self.wait.until(
         EC.frame_to_be_available_and_switch_to_it((By.ID, 'modal_infra_estrutura'))
       )
@@ -114,9 +98,6 @@ class Bradesco:
       self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//*[@id="formSalvarComo:cvs"]'))
       ).click()
-      
-      sleep(1)
-      self.rename()
 
       sleep(1)
       self.rename() 
@@ -126,38 +107,20 @@ class Bradesco:
         EC.element_to_be_clickable((By.XPATH, '//*[@id="_id29"]'))
       ).click()
 
-      # Troca o frame
+      ## Troca o frame
       self.driver.switch_to.default_content()
 
       self.wait.until(
         EC.frame_to_be_available_and_switch_to_it((By.ID, 'paginaCentral'))
       )
 
+      ## Resolve o bug do Firefox
+      extrato.click()
+      row.click()
+
       # Itera linha da tabela
       self.iteratorListaContas += 1
 
-<<<<<<< HEAD
-    self.driver.switch_to.default_content()
-    self.driver.find_element_by_xpath('//*[@id="botaoSair"]').click()
-    sleep(3)
-    self.driver.close()
-
-  def rename(self):   
-    for filename in os.listdir(self.path):      
-      x = self.cnpj[self.iteratorListaContas].split("/")
-      print(x)
-      new_file_name = 'saldo_investimento_'+x[0]+'.'+x[1]+'.csv' 
-      print(new_file_name)       
-      try:
-        os.rename(os.path.join(self.path, filename),
-            os.path.join(self.path2, new_file_name))
-        #todo: shutil.move(path, path2)                
-      except:
-        print("Socorro 01!" + filename)                    
-      print(filename)
-      break
-
-=======
     sleep(3)
     self.driver.switch_to.default_content()
     sleep(3)
@@ -167,6 +130,7 @@ class Bradesco:
       EC.element_to_be_clickable((By.XPATH, '//*[@id="botaoSair"]'))
     ).click()
     sleep(3)
+    self.driver.close()
     self.driver.close()
 
   def rename(self):    
@@ -179,7 +143,6 @@ class Bradesco:
       except Exception:
         print(Exception)                    
       break
->>>>>>> fdae348b2bb232f3137dc1d3b385a6592ea7d9d8
 
 invest = Bradesco()
 invest.auth()
