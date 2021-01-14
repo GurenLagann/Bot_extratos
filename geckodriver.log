@@ -13764,3 +13764,1277 @@ JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERRO
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1610577745628	geckodriver	INFO	Listening on 127.0.0.1:37707
+1610577745634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3bs2I3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610577748489	Marionette	INFO	Listening on port 39345
+1610577748575	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker25 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610578087002	Marionette	INFO	Stopped listening on port 39345
+1610578096857	geckodriver	INFO	Listening on 127.0.0.1:50349
+1610578096863	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNMbEjB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610578099694	Marionette	INFO	Listening on port 42987
+1610578099799	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker25 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610578279630	Marionette	INFO	Stopped listening on port 42987
+1610578292505	geckodriver	INFO	Listening on 127.0.0.1:39263
+1610578292511	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuvpHa1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610578295189	Marionette	INFO	Listening on port 36639
+1610578295253	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker26 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610578402429	Marionette	INFO	Stopped listening on port 36639
+1610578405390	geckodriver	INFO	Listening on 127.0.0.1:38631
+1610578405396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2lHgO7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610578408244	Marionette	INFO	Listening on port 35007
+1610578408342	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker27 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610578554101	Marionette	INFO	Stopped listening on port 35007
+1610578556847	geckodriver	INFO	Listening on 127.0.0.1:39653
+1610578556853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVt7UZg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610578559460	Marionette	INFO	Listening on port 33861
+1610578559586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker25 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610578656709	Marionette	INFO	Stopped listening on port 33861
+1610578660440	geckodriver	INFO	Listening on 127.0.0.1:57717
+1610578660446	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles7DzHn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610578663192	Marionette	INFO	Listening on port 33311
+1610578663283	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker25 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610578795287	Marionette	INFO	Stopped listening on port 33311
+1610578797905	geckodriver	INFO	Listening on 127.0.0.1:35109
+1610578797911	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerDHpj2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610578800772	Marionette	INFO	Listening on port 44993
+1610578800847	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker26 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610578925133	Marionette	INFO	Stopped listening on port 44993
+1610578928134	geckodriver	INFO	Listening on 127.0.0.1:38195
+1610578928140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepJohAi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610578931174	Marionette	INFO	Listening on port 34897
+1610578931281	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610578955073	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610578955828	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker25 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610579183759	Marionette	INFO	Stopped listening on port 34897
+1610579187703	geckodriver	INFO	Listening on 127.0.0.1:51945
+1610579187709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKuZioq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610579190403	Marionette	INFO	Listening on port 42647
+1610579190446	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610579213038	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610579214787	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivoCompleto.jsf, line 1: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:439:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2093:35
+addAllSources@resource://devtools/server/actors/thread.js:1476:14
+sources@resource://devtools/server/actors/thread.js:1482:10
+handler@resource://devtools/shared/protocol/Actor.js:172:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:68:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript error: https://banco.bradesco/assets/common/js/jquery-3.4.1.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610579325384	Marionette	INFO	Stopped listening on port 42647
+1610579335504	geckodriver	INFO	Listening on 127.0.0.1:51659
+1610579335510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejgJ4sy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610579338483	Marionette	INFO	Listening on port 39043
+1610579338559	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610579362290	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivoCompleto.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610579416070	Marionette	INFO	Stopped listening on port 39043
+1610579420098	geckodriver	INFO	Listening on 127.0.0.1:59093
+1610579420103	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9LaGbg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610579422737	Marionette	INFO	Listening on port 35801
+1610579422859	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivoCompleto.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivoCompleto.jsf, line 1: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:439:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2093:35
+addAllSources@resource://devtools/server/actors/thread.js:1476:14
+sources@resource://devtools/server/actors/thread.js:1482:10
+handler@resource://devtools/shared/protocol/Actor.js:172:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:68:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker26 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript error: resource://devtools/client/inspector/markup/views/element-editor.js, line 508: TypeError: this.node.walkerFront is null
+JavaScript error: resource://devtools/client/inspector/markup/views/element-editor.js, line 508: TypeError: this.node.walkerFront is null
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child3/domwalker26, type cancelPick failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:288:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ncancelPick@resource://devtools/client/fronts/walker.js:617:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:57:25\n_onInspectorFrontDestroyed@resource://devtools/client/inspector/node-picker.js:112:18\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nunmanage@resource://devtools/shared/protocol/Front.js:168:37\ndestroy@resource://devtools/shared/protocol/Pool.js:167:14\nbaseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:103:13\ndestroy@resource://devtools/shared/protocol/Front.js:67:10\ndestroy@resource://devtools/client/fronts/inspector.js:96:11\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:604:17\n", "resource://devtools/shared/protocol/Front.js", 99))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610579752320	Marionette	INFO	Stopped listening on port 35801
+1610579846875	geckodriver	INFO	Listening on 127.0.0.1:49689
+1610579846881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileviJ8ze"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610579849608	Marionette	INFO	Listening on port 33907
+1610579849725	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+console.error: "Error writing request: getGrids"
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker25 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+JavaScript error: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/geral/jquery.js, line 28: NS_ERROR_NOT_INITIALIZED: 
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610580279702	Marionette	INFO	Stopped listening on port 33907
+1610580281760	geckodriver	INFO	Listening on 127.0.0.1:33761
+1610580281766	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDO6k4H"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610580284521	Marionette	INFO	Listening on port 33487
+1610580284616	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:439:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2093:35
+addAllSources@resource://devtools/server/actors/thread.js:1476:14
+sources@resource://devtools/server/actors/thread.js:1482:10
+handler@resource://devtools/shared/protocol/Actor.js:172:37
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:68:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+1610580412802	geckodriver	INFO	Listening on 127.0.0.1:37081
+1610580412808	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqO4VX1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610580415740	Marionette	INFO	Listening on port 46647
+1610580415850	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1207:3
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker26 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610580428596	Marionette	INFO	Stopped listening on port 33487
+1610580430628	Marionette	INFO	Stopped listening on port 46647
+1610580434385	geckodriver	INFO	Listening on 127.0.0.1:33923
+1610580434391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH8k2ds"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610580437149	Marionette	INFO	Listening on port 39101
+1610580437227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+console.error: "Error writing request: getGrids"
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker25 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610580512652	Marionette	INFO	Stopped listening on port 39101
+1610580516672	geckodriver	INFO	Listening on 127.0.0.1:34917
+1610580516678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4F6krC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610580519445	Marionette	INFO	Listening on port 43373
+1610580519518	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610580642012	Marionette	INFO	Stopped listening on port 43373
+1610580658101	geckodriver	INFO	Listening on 127.0.0.1:37775
+1610580658107	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexh59Lq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610580660715	Marionette	INFO	Listening on port 39539
+1610580660755	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610580829064	geckodriver	INFO	Listening on 127.0.0.1:39283
+1610580829070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJpSQ9k"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610580831837	Marionette	INFO	Listening on port 32855
+1610580831915	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript error: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/geral/jquery.js, line 28: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/geral/principal.js, line 721: ReferenceError: modal_infra_estrutura is not defined
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610580844097	Marionette	INFO	Stopped listening on port 32855
+1610580845624	Marionette	INFO	Stopped listening on port 39539
+1610580848672	geckodriver	INFO	Listening on 127.0.0.1:41135
+1610580848678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebEWUyy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610580851599	Marionette	INFO	Listening on port 40061
+1610580851712	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610580917263	Marionette	INFO	Stopped listening on port 40061
+1610580919775	geckodriver	INFO	Listening on 127.0.0.1:46615
+1610580919781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilei4YB3V"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610580922379	Marionette	INFO	Listening on port 36365
+1610580922430	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript error: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/geral/jquery.js, line 28: NS_ERROR_NOT_INITIALIZED: 
+1610581036685	Marionette	INFO	Stopped listening on port 36365
+1610581038746	geckodriver	INFO	Listening on 127.0.0.1:39677
+1610581038752	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH1LWNW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610581041353	Marionette	INFO	Listening on port 41931
+1610581041413	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker25 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610581291925	Marionette	INFO	Stopped listening on port 41931
+1610581295064	geckodriver	INFO	Listening on 127.0.0.1:59683
+1610581295070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7qRbYc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610581297806	Marionette	INFO	Listening on port 33177
+1610581297902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'domwalker's method 'documentElement'" "this.rawNode is null"
+console.error: "get isScrollable@resource://devtools/server/actors/inspector/node.js:355:1\ninitialize@resource://devtools/server/actors/inspector/node.js:100:27\ncls@resource://devtools/shared/protocol/Actor.js:252:25\n_getOrCreateNodeActor@resource://devtools/server/actors/inspector/walker.js:497:13\ndocumentElement@resource://devtools/server/actors/inspector/walker.js:677:17\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: (new Error("Protocol error (TypeError): this.rawNode is null from: server0.conn0.child3/domwalker26 (resource://devtools/server/actors/inspector/node.js:355:1)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:934:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610582121827	Marionette	INFO	Stopped listening on port 33177
+1610582125030	geckodriver	INFO	Listening on 127.0.0.1:50289
+1610582125036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMrK3gq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610582127744	Marionette	INFO	Listening on port 39611
+1610582127878	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610582259402	Marionette	INFO	Stopped listening on port 39611
+1610582263066	geckodriver	INFO	Listening on 127.0.0.1:55397
+1610582263072	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile28mvos"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610582265656	Marionette	INFO	Listening on port 41097
+1610582265719	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610582403262	Marionette	INFO	Stopped listening on port 41097
+1610582421890	geckodriver	INFO	Listening on 127.0.0.1:36291
+1610582421896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoLFIBD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610582424776	Marionette	INFO	Listening on port 34509
+1610582424843	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610582453822	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610582471489	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610582487580	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610582497335	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610582555712	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610582585836	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610582646311	Marionette	INFO	Stopped listening on port 34509

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from time import sleep
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -9,6 +10,8 @@ import re
 class Bradesco:
   BASE_PATH = 'https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf'
   cnpj = []
+  iteratorListaContas = 0
+
 
   def __init__(self):
     self.username = 'LMI00542'
@@ -16,8 +19,8 @@ class Bradesco:
 
     # options = webdriver.ChromeOptions()
     # options.add_argument('lang=pt-br')
-    self.driver =  webdriver.Chrome(executable_path=r'./chromedriver')
-    # self.driver = webdriver.Firefox(executable_path=r'./geckodriver')
+    # self.driver =  webdriver.Chrome(executable_path=r'./chromedriver')
+    self.driver = webdriver.Firefox(executable_path=r'./geckodriver')
     self.wait = WebDriverWait(self.driver, 60)
 
   def auth(self):
@@ -55,37 +58,46 @@ class Bradesco:
       self.cnpj.append(n.text)    
 
     for row in rows:
-      
-      row.click()     
-      # self.driver.find_element_by_css_selector('td.nowrap.alignRight').click()
+      ## Abre a conta
+      row.click()
 
+      ## Abre o extrato
       self.wait.until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, 'td.nowrap.alignRight'))
+        EC.element_to_be_clickable((By.XPATH, '//*[@id="formSaldos:listagemContaCorrente:_id162:'+str(self.iteratorListaContas)+':listaContasEmpresa:_id221:0:linhaContaSaldo"]/tr[1]'))
       ).click()
 
+      ## Clica no botão de salvar
       self.wait.until(
-        EC.presence_of_element_located((By.XPATH, '//a[.="Salvar como arquivo"]'))
+        EC.element_to_be_clickable((By.XPATH, '//*[@id="formSaldos:listagemContaCorrente:_id162:'+str(self.iteratorListaContas)+':listaContasEmpresa:_id221:0:linhaContaSaldo"]/tr[2]/td/div[3]/div/ul/li[2]/a'))
       ).click()
+
+      ## Troca o frame
       self.driver.switch_to.default_content()
+
       self.wait.until(
         EC.frame_to_be_available_and_switch_to_it((By.ID, 'modal_infra_estrutura'))
       )
 
-      #Botão de Download
-      sleep(5)      
-      # self.driver.execute_script("clear_formSalvarComo();document.forms['formSalvarComo'].elements['autoScroll'].value=getScrolling();document.forms['formSalvarComo'].elements['formSalvarComo:_link_hidden_'].value='formSalvarComo:cvs';document.forms['formSalvarComo'].elements['formato'].value='CSV';if(document.forms['formSalvarComo'].onsubmit){if(document.forms['formSalvarComo'].onsubmit()) document.forms['formSalvarComo'].submit();}else{document.forms['formSalvarComo'].submit();}return false;")
-      # self.driver.find_element_by_xpath('//a[@id="formSalvarComo:cvs"]').click()
-      self.driver.get("https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivoCompleto.jsf")
-      sleep(5)
-      
-      #voltar para tabela
-      self.driver.find_element_by_id('formSalvarComo:btnEnviarFechar_X').click()
+      ## Clica no botão de salvar CSV
+      self.wait.until(
+        EC.element_to_be_clickable((By.XPATH, '//*[@id="formSalvarComo:cvs"]'))
+      ).click()
+
+      ## Clica no botão de fechar o frame
+      self.wait.until(
+        EC.element_to_be_clickable((By.XPATH, '//*[@id="_id29"]'))
+      ).click()
+
+      # Troca o frame
       self.driver.switch_to.default_content()
+
       self.wait.until(
         EC.frame_to_be_available_and_switch_to_it((By.ID, 'paginaCentral'))
       )
-      
-    print(self.cnpj)
+
+      # Itera linha da tabela
+      self.iteratorListaContas += 1
+
 
 invest = Bradesco()
 invest.auth()
