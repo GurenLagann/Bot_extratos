@@ -17569,6 +17569,7 @@ JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf
 JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
 JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
 1610638445901	Marionette	INFO	Stopped listening on port 41039
+<<<<<<< HEAD
 1610645614508	geckodriver	INFO	Listening on 127.0.0.1:48951
 1610645615464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7SQutw"
 1610645683725	geckodriver	INFO	Listening on 127.0.0.1:57345
@@ -17673,3 +17674,103 @@ JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/lo
 JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
 JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
 1610647084543	Marionette	INFO	Stopped listening on port 43919
+=======
+1610649530771	geckodriver	INFO	Listening on 127.0.0.1:42213
+1610649530780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE7bfoe"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610649533655	Marionette	INFO	Listening on port 33441
+1610649533727	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610649558782	Marionette	INFO	Stopped listening on port 33441
+1610649634873	geckodriver	INFO	Listening on 127.0.0.1:48115
+1610649634889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7t1Up6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610649637848	Marionette	INFO	Listening on port 45221
+1610649637936	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+1610649724756	geckodriver	INFO	Listening on 127.0.0.1:39467
+1610649724776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBrq6Sg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610649728005	Marionette	INFO	Listening on port 37079
+1610649728118	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610649732727	Marionette	INFO	Stopped listening on port 45221
+1610649734847	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: chrome://marionette/content/actors/MarionetteCommandsChild.jsm, line 62: TypeError: this.contentWindow is null
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610649753967	Marionette	INFO	Stopped listening on port 37079
+1610649792745	geckodriver	INFO	Listening on 127.0.0.1:43913
+1610649792762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeHJ19V"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610649795600	Marionette	INFO	Listening on port 45931
+1610649795702	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610649827849	Marionette	INFO	Stopped listening on port 45931
+1610650098716	geckodriver	INFO	Listening on 127.0.0.1:55165
+1610650098732	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejVfTGd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610650101626	Marionette	INFO	Listening on port 45531
+1610650101681	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1610650137072	Marionette	INFO	Stopped listening on port 45531
+1610650324153	geckodriver	INFO	Listening on 127.0.0.1:54235
+1610650324169	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileacMIyx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610650327248	Marionette	INFO	Listening on port 36479
+1610650327313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/geral/default.js, line 1353: SecurityError: Permission denied to access property "$" on cross-origin object
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610650350919	Marionette	INFO	Stopped listening on port 36479
+1610650422872	geckodriver	INFO	Listening on 127.0.0.1:57141
+1610650422881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileM2HcIv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610650425958	Marionette	INFO	Listening on port 46223
+1610650426031	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610650502394	Marionette	INFO	Stopped listening on port 46223
+1610650642293	geckodriver	INFO	Listening on 127.0.0.1:35869
+1610650642311	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepUh5MX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610650645457	Marionette	INFO	Listening on port 44271
+1610650645551	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610650652845	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610650667629	Marionette	INFO	Stopped listening on port 44271
+>>>>>>> fdae348b2bb232f3137dc1d3b385a6592ea7d9d8
