@@ -17,10 +17,11 @@ class Bradesco:
     self.username = 'LMI00542'
     self.passwd = '32458998'
 
-    # options = webdriver.ChromeOptions()
-    # options.add_argument('lang=pt-br')
-    # self.driver =  webdriver.Chrome(executable_path=r'./chromedriver')
-    self.driver = webdriver.Firefox(executable_path=r'./geckodriver')
+    profile = webdriver.FirefoxProfile()
+    profile.set_preference("browser.download.folderList", 2)
+    profile.set_preference("browser.download.manager.showWhenStarting", False)
+    profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
+    self.driver = webdriver.Firefox(executable_path=r'./geckodriver', firefox_profile=profile)
     self.wait = WebDriverWait(self.driver, 60)
 
   def auth(self):

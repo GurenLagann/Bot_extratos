@@ -36,13 +36,13 @@ class Bradesco:
     self.driver.find_element_by_id('identificationForm:txtUsuario').send_keys('LMI00542')
     self.driver.find_element_by_id('identificationForm:txtSenha').send_keys('32458998')
     self.driver.find_element_by_id('identificationForm:botaoAvancar').click()
-    sleep(5)
+    sleep(2)
 
     self._remove_home_modal()
     self.get_extratos()
 
   def _remove_home_modal(self):
-    sleep(10)
+    sleep(1)
     if len(self.driver.find_elements_by_css_selector('.jqmOverlay')) >= 1:
         self.driver.execute_script('document.querySelector(".jqmOverlay").remove()')
 
@@ -109,24 +109,26 @@ class Bradesco:
       # Itera linha da tabela
       self.iteratorListaContas += 1
 
+    sleep(3)
     self.driver.switch_to.default_content()
-    self.driver.find_element_by_xpath('//*[@id="botaoSair"]').click()
-    sleep(5)
+    sleep(3)
+    self.driver.switch_to.default_content()
+    sleep(3)
+    self.wait.until(
+      EC.element_to_be_clickable((By.XPATH, '//*[@id="botaoSair"]'))
+    ).click()
+    sleep(3)
     self.driver.close()
 
   def rename(self):    
     for filename in os.listdir(self.path):      
       x = self.cnpj[self.iteratorListaContas].split("/")
-      print(x)
       new_file_name = 'saldo_investimento_'+x[0]+'.'+x[1]+'.csv' 
-      print(new_file_name)       
       try:
         os.rename(os.path.join(self.path, filename),
             os.path.join(self.path2, new_file_name))
-        #todo: shutil.move(path, path2)                
-      except:
-        print("Socorro 01!" + filename)                    
-      print(filename)
+      except Exception:
+        print(Exception)                    
       break
 
 invest = Bradesco()
