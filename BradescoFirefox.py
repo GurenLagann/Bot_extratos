@@ -23,7 +23,6 @@ class Bradesco:
     fp = webdriver.FirefoxProfile()
     fp.set_preference("browser.download.folderList", 2)
     fp.set_preference("browser.download.manager.showWhenStarting", False)
-    fp.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/csv")
     fp.set_preference("browser.download.dir", self.path)
     fp.set_preference("browser.helperApps.neverAsk.saveToDisk",
     "text/plain, application/octet-stream, application/binary, text/csv, application/csv, application/excel, text/comma-separated-values, text/xml, application/xml")
