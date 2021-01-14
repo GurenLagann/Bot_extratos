@@ -12,8 +12,8 @@ import re
 class Bradesco:
   BASE_PATH = 'https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf'
   cnpj = []
-  path = '/home/marcos/Downloads'
-  path2 = '/home/marcos/Extratos'
+  path = '/home/wallace/Downloads'
+  path2 = '/home/wallace/Extratos'
   iteratorListaContas = 0
 
 
@@ -21,14 +21,14 @@ class Bradesco:
     self.username = 'LMI00542'
     self.passwd = '32458998'
 
-    options = Options()
-    options.add_experimental_option("prefs", {
-    "download.prompt_for_download": False,
-    "download.directory_upgrade": True,
-    "safebrowsing.enabled": True
-})
+    # options = Options()
+    # options.add_experimental_option("prefs", {
+    # "download.prompt_for_download": False,
+    # "download.directory_upgrade": True,
+    # "safebrowsing.enabled": True
+    # })
 
-    self.driver = webdriver.Chrome(executable_path=r'./chromedriver', chrome_options=options)
+    self.driver = webdriver.Chrome(executable_path=r'./chromedriver')
     self.wait = WebDriverWait(self.driver, 60)
 
   def auth(self):
@@ -123,18 +123,11 @@ class Bradesco:
   def rename(self):    
     for filename in os.listdir(self.path):      
       x = self.cnpj[self.iteratorListaContas].split("/")
-<<<<<<< HEAD
       new_file_name = 'saldo_investimento_'+x[0]+'.'+x[1]+'.csv'
       try:
         os.rename(os.path.join(self.path, filename),
             os.path.join(self.path2, new_file_name))
                 
-=======
-      new_file_name = 'saldo_investimento_'+x[0]+'.'+x[1]+'.csv' 
-      try:
-        os.rename(os.path.join(self.path, filename),
-            os.path.join(self.path2, new_file_name))
->>>>>>> fdae348b2bb232f3137dc1d3b385a6592ea7d9d8
       except Exception:
         print(Exception)                    
       break
