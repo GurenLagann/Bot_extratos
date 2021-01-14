@@ -62,7 +62,7 @@ class Bradesco:
       row.click()
 
       ## Abre o extrato
-      extrato = self.wait.until(
+      self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//*[@id="formSaldos:listagemContaCorrente:_id162:'+str(self.iteratorListaContas)+':listaContasEmpresa:_id221:0:linhaContaSaldo"]/tr[1]'))
       ).click()
 
@@ -109,16 +109,13 @@ class Bradesco:
   def rename(self):    
     for filename in os.listdir(self.path):      
       x = self.cnpj[self.iteratorListaContas].split("/")
-      print(x)
-      new_file_name = 'saldo_investimento_'+x[0]+'.'+x[1]+'.csv' 
-      print(new_file_name)       
+      new_file_name = 'saldo_investimento_'+x[0]+'.'+x[1]+'.csv'
       try:
         os.rename(os.path.join(self.path, filename),
             os.path.join(self.path2, new_file_name))
-        #todo: shutil.move(path, path2)                
-      except:
-        print("Socorro 01!" + filename)                    
-      print(filename)
+                
+      except Exception:
+        print(Exception)                    
       break
 
 invest = Bradesco()
