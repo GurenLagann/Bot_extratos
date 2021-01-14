@@ -5,14 +5,15 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.chrome.options import Options
 import os
 import re
 
 class Bradesco:
   BASE_PATH = 'https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf'
   cnpj = []
-  path = '/home/wallace/Downloads'
-  path2 = '/home/wallace/Extratos'
+  path = '/home/marcos/Downloads'
+  path2 = '/home/marcos/Extratos'
   iteratorListaContas = 0
 
 
@@ -20,7 +21,14 @@ class Bradesco:
     self.username = 'LMI00542'
     self.passwd = '32458998'
 
-    self.driver =  webdriver.Chrome(executable_path=r'./chromedriver')
+    options = Options()
+    options.add_experimental_option("prefs", {
+    "download.prompt_for_download": False,
+    "download.directory_upgrade": True,
+    "safebrowsing.enabled": True
+})
+
+    self.driver = webdriver.Chrome(executable_path=r'./chromedriver', chrome_options=options)
     self.wait = WebDriverWait(self.driver, 60)
 
   def auth(self):
