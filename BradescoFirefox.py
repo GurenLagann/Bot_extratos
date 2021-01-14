@@ -73,13 +73,15 @@ class Bradesco:
       extrato = self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//*[@id="formSaldos:listagemContaCorrente:_id162:'+str(self.iteratorListaContas)+':listaContasEmpresa:_id221:0:linhaContaSaldo"]/tr[1]'))
       )
-      self.driver.execute_script("arguments[0].scrollIntoView();", extrato)
+      self.driver.execute_script("arguments[0].scrollIntoView(true);", extrato)
+      
       soup = BeautifulSoup(extrato.text, 'html.parser')
       soupString = str(soup).split(' ')
       soupStringT = soupString[0]+ ' ' + soupString[1]+ ' ' + soupString[2]
-      self.wait.until(
+      extrato = self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//td[.="'+ soupStringT +'"]'))
-      ).click()
+      )
+      extrato.click()
 
       ## Clica no botão de salvar
       self.wait.until(
@@ -88,7 +90,6 @@ class Bradesco:
 
       ## Troca o frame
       self.driver.switch_to.default_content()
-
       self.wait.until(
         EC.frame_to_be_available_and_switch_to_it((By.ID, 'modal_infra_estrutura'))
       )
@@ -106,12 +107,16 @@ class Bradesco:
         EC.element_to_be_clickable((By.XPATH, '//*[@id="_id29"]'))
       ).click()
 
-      # Troca o frame
+      ## Troca o frame
       self.driver.switch_to.default_content()
 
       self.wait.until(
         EC.frame_to_be_available_and_switch_to_it((By.ID, 'paginaCentral'))
       )
+
+      ## Resolve o bug do Firefox
+      extrato.click()
+      row.click()
 
       # Itera linha da tabela
       self.iteratorListaContas += 1
@@ -125,6 +130,7 @@ class Bradesco:
       EC.element_to_be_clickable((By.XPATH, '//*[@id="botaoSair"]'))
     ).click()
     sleep(3)
+    self.driver.close()
     self.driver.close()
 
   def rename(self):    

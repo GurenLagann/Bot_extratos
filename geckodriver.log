@@ -17667,3 +17667,344 @@ JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoA
 JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
 JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
 1610650667629	Marionette	INFO	Stopped listening on port 44271
+1610650732751	geckodriver	INFO	Listening on 127.0.0.1:41553
+1610650732777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileieBD8F"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610650735678	Marionette	INFO	Listening on port 45081
+1610650735754	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610650947911	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610650992464	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651012265	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651013052	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610651063818	Marionette	INFO	Stopped listening on port 45081
+1610651201720	geckodriver	INFO	Listening on 127.0.0.1:36031
+1610651201729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQxKCNJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610651205344	Marionette	INFO	Listening on port 39219
+1610651205491	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1610651219566	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610651251301	Marionette	INFO	Stopped listening on port 39219
+1610651371081	geckodriver	INFO	Listening on 127.0.0.1:56823
+1610651371091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJXt2Mm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610651374420	Marionette	INFO	Listening on port 40301
+1610651374536	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1610651571342	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610651611619	Marionette	INFO	Stopped listening on port 40301
+1610651640374	geckodriver	INFO	Listening on 127.0.0.1:47651
+1610651640384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekLZkf4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610651643338	Marionette	INFO	Listening on port 42335
+1610651643436	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/geral/principal.js, line 721: ReferenceError: modal_infra_estrutura is not defined
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610651653384	Marionette	INFO	Stopped listening on port 42335
+1610651656965	geckodriver	INFO	Listening on 127.0.0.1:57773
+1610651656974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepBlD2g"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610651659827	Marionette	INFO	Listening on port 40629
+1610651659911	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610651668200	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610651719054	Marionette	INFO	Stopped listening on port 40629
+1610651725241	geckodriver	INFO	Listening on 127.0.0.1:34425
+1610651725262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehEvjwk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610651728218	Marionette	INFO	Listening on port 37731
+1610651728308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjsei/salvarComoArquivo.jsf, line 1: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610651775696	Marionette	INFO	Stopped listening on port 37731
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610651778057	geckodriver	INFO	Listening on 127.0.0.1:48091
+1610651778066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYK7mZ8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610651780822	Marionette	INFO	Listening on port 33827
+1610651780916	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+JavaScript error: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/geral/principal.js, line 721: ReferenceError: modal_infra_estrutura is not defined
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610651793035	Marionette	INFO	Stopped listening on port 33827
+1610651795279	geckodriver	INFO	Listening on 127.0.0.1:42841
+1610651795296	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEo6QgQ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610651798174	Marionette	INFO	Listening on port 42045
+1610651798243	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610651817684	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651828356	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651839004	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651849505	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651860033	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651870721	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651880902	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651891512	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651902112	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651913301	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651923766	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651933777	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651944249	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651955458	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610651965901	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652055785	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652056510	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610652143926	Marionette	INFO	Stopped listening on port 42045
+1610652151282	geckodriver	INFO	Listening on 127.0.0.1:44163
+1610652151298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAxIAaD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610652154335	Marionette	INFO	Listening on port 39291
+1610652154434	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610652160622	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: chrome://marionette/content/actors/MarionetteCommandsChild.jsm, line 62: TypeError: this.contentWindow is null
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610652287323	Marionette	INFO	Stopped listening on port 39291
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610652289738	geckodriver	INFO	Listening on 127.0.0.1:50203
+1610652289754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFMu5Dp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610652292763	Marionette	INFO	Listening on port 33969
+1610652292891	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610652300419	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1610652300868	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610652365538	Marionette	INFO	Stopped listening on port 33969
+1610652367537	geckodriver	INFO	Listening on 127.0.0.1:51289
+1610652367545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIajwf8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610652370689	Marionette	INFO	Listening on port 46603
+1610652370798	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610652378572	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610652426494	Marionette	INFO	Stopped listening on port 46603
+1610652428918	geckodriver	INFO	Listening on 127.0.0.1:55917
+1610652428934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePXU7QA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610652432116	Marionette	INFO	Listening on port 35617
+1610652432177	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf, line 1: unreachable code after return statement
+1610652452323	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652463061	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652473799	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652484506	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652494687	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652505562	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652516304	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652526419	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652537173	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652547953	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652558568	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652569905	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652580664	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652591487	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652653681	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652694231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1610652735219	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+JavaScript warning: https://www.ne13.bradesconetempresa.b.br/ibpj/conteudo/js/login/default.js?vrs=14, line 89: unreachable code after return statement
+1610652751335	Marionette	INFO	Stopped listening on port 35617
