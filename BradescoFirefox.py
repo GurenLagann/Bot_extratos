@@ -59,11 +59,20 @@ class Bradesco:
 
     for row in rows:
       ## Abre a conta
+      sleep(3)
       row.click()
 
       ## Abre o extrato
-      self.wait.until(
+      extrato = self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//*[@id="formSaldos:listagemContaCorrente:_id162:'+str(self.iteratorListaContas)+':listaContasEmpresa:_id221:0:linhaContaSaldo"]/tr[1]'))
+      )
+      self.driver.execute_script("arguments[0].scrollIntoView();", extrato)
+      soup = BeautifulSoup(extrato.text, 'html.parser')
+      soupString = str(soup).split(' ')
+      soupStringT = soupString[0]+ ' ' + soupString[1]+ ' ' + soupString[2]
+      print(soupStringT)
+      self.wait.until(
+        EC.element_to_be_clickable((By.XPATH, '//td[.="'+ soupStringT +'"]'))
       ).click()
 
       ## Clica no botão de salvar
