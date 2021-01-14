@@ -5,11 +5,14 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+import os
 import re
 
 class Bradesco:
   BASE_PATH = 'https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf'
   cnpj = []
+  path = '/home/wallace/Downloads'
+  path2 = '/home/wallace/Extratos'
   iteratorListaContas = 0
 
 
@@ -17,10 +20,7 @@ class Bradesco:
     self.username = 'LMI00542'
     self.passwd = '32458998'
 
-    # options = webdriver.ChromeOptions()
-    # options.add_argument('lang=pt-br')
     self.driver =  webdriver.Chrome(executable_path=r'./chromedriver')
-    # self.driver = webdriver.Firefox(executable_path=r'./geckodriver')
     self.wait = WebDriverWait(self.driver, 60)
 
   def auth(self):
@@ -81,7 +81,10 @@ class Bradesco:
       ## Clica no botão de salvar CSV
       self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//*[@id="formSalvarComo:cvs"]'))
-      ).click()
+      ).click() 
+
+      sleep(1)
+      self.rename()     
 
       ## Clica no botão de fechar o frame
       self.wait.until(
@@ -93,11 +96,30 @@ class Bradesco:
 
       self.wait.until(
         EC.frame_to_be_available_and_switch_to_it((By.ID, 'paginaCentral'))
-      )
-
+      )  
+      
       # Itera linha da tabela
       self.iteratorListaContas += 1
 
+    self.driver.switch_to.default_content()
+    self.driver.find_element_by_xpath('//*[@id="botaoSair"]').click()
+    sleep(5)
+    self.driver.close()
+
+  def rename(self):    
+    for filename in os.listdir(self.path):      
+      x = self.cnpj[self.iteratorListaContas].split("/")
+      print(x)
+      new_file_name = 'saldo_investimento_'+x[0]+'.'+x[1]+'.csv' 
+      print(new_file_name)       
+      try:
+        os.rename(os.path.join(self.path, filename),
+            os.path.join(self.path2, new_file_name))
+        #todo: shutil.move(path, path2)                
+      except:
+        print("Socorro 01!" + filename)                    
+      print(filename)
+      break
 
 invest = Bradesco()
 invest.auth()
