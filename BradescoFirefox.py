@@ -70,7 +70,6 @@ class Bradesco:
       soup = BeautifulSoup(extrato.text, 'html.parser')
       soupString = str(soup).split(' ')
       soupStringT = soupString[0]+ ' ' + soupString[1]+ ' ' + soupString[2]
-      print(soupStringT)
       self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//td[.="'+ soupStringT +'"]'))
       ).click()
