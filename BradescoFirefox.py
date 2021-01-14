@@ -5,23 +5,30 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.chrome.options import Options
+import os
 import re
 
 class Bradesco:
   BASE_PATH = 'https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf'
   cnpj = []
+  path = '/home/marcos/Downloads'
+  path2 = '/home/marcos/Extratos'
   iteratorListaContas = 0
 
 
   def __init__(self):
     self.username = 'LMI00542'
     self.passwd = '32458998'
-
-    profile = webdriver.FirefoxProfile()
-    profile.set_preference("browser.download.folderList", 2)
-    profile.set_preference("browser.download.manager.showWhenStarting", False)
-    profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
-    self.driver = webdriver.Firefox(executable_path=r'./geckodriver', firefox_profile=profile)
+    fp = webdriver.FirefoxProfile()
+    fp.set_preference("browser.download.folderList", 2)
+    fp.set_preference("browser.download.manager.showWhenStarting", False)
+    fp.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/csv")
+    fp.set_preference("browser.download.dir", self.path)
+    fp.set_preference("browser.helperApps.neverAsk.saveToDisk",
+    "text/plain, application/octet-stream, application/binary, text/csv, application/csv, application/excel, text/comma-separated-values, text/xml, application/xml")
+    fp.set_preference("pdfjs.disabled", True)
+    self.driver = webdriver.Firefox(executable_path=r'./geckodriver', firefox_profile=fp)
     self.wait = WebDriverWait(self.driver, 60)
 
   def auth(self):
@@ -29,13 +36,13 @@ class Bradesco:
     self.driver.find_element_by_id('identificationForm:txtUsuario').send_keys('LMI00542')
     self.driver.find_element_by_id('identificationForm:txtSenha').send_keys('32458998')
     self.driver.find_element_by_id('identificationForm:botaoAvancar').click()
-    sleep(5)
+    sleep(2)
 
     self._remove_home_modal()
     self.get_extratos()
 
   def _remove_home_modal(self):
-    sleep(10)
+    sleep(1)
     if len(self.driver.find_elements_by_css_selector('.jqmOverlay')) >= 1:
         self.driver.execute_script('document.querySelector(".jqmOverlay").remove()')
 
@@ -60,7 +67,6 @@ class Bradesco:
 
     for row in rows:
       ## Abre a conta
-      sleep(3)
       row.click()
 
       ## Abre o extrato
@@ -92,6 +98,9 @@ class Bradesco:
         EC.element_to_be_clickable((By.XPATH, '//*[@id="formSalvarComo:cvs"]'))
       ).click()
 
+      sleep(1)
+      self.rename() 
+
       ## Clica no botão de fechar o frame
       self.wait.until(
         EC.element_to_be_clickable((By.XPATH, '//*[@id="_id29"]'))
@@ -107,6 +116,27 @@ class Bradesco:
       # Itera linha da tabela
       self.iteratorListaContas += 1
 
+    sleep(3)
+    self.driver.switch_to.default_content()
+    sleep(3)
+    self.driver.switch_to.default_content()
+    sleep(3)
+    self.wait.until(
+      EC.element_to_be_clickable((By.XPATH, '//*[@id="botaoSair"]'))
+    ).click()
+    sleep(3)
+    self.driver.close()
+
+  def rename(self):    
+    for filename in os.listdir(self.path):      
+      x = self.cnpj[self.iteratorListaContas].split("/")
+      new_file_name = 'saldo_investimento_'+x[0]+'.'+x[1]+'.csv' 
+      try:
+        os.rename(os.path.join(self.path, filename),
+            os.path.join(self.path2, new_file_name))
+      except Exception:
+        print(Exception)                    
+      break
 
 invest = Bradesco()
 invest.auth()
