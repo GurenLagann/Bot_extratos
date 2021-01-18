@@ -3,12 +3,15 @@
     "headless_display":"false",
 
     "firefox_path":"/usr/bin/firefox",
-    "geckodriver_path":"/usr/local/bin/geckodriver",
+    "geckodriver_path":"/usr/wallace/GitHub/Python/BradescoBot/geckodriver",
     "firefox_48_path":"/home/robot/Downloads/firefox/firefox",
     "geckodriver_48_path":"/home/robot/Documents/Dev/code/scraping/bradesco_retorno/lib/geckodriver_48_linux",
 
     "bradesco_download_extrato_username":"LMI00542",
-    "bradesco_download_extrato_password":"32458998"
+    "bradesco_download_extrato_password":"32458998",
+
+    "path" : "/home/wallace/Downloads",
+    "path2": "/home/wallace/Extratos"
 
 }
 
