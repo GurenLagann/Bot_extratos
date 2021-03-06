@@ -11,7 +11,7 @@ import glob
 import re
 
 class Bradesco:
-  BASE_PATH = 'https://www.ne12.bradesconetempresa.b.br/ibpjlogin/login.jsf'
+  BASE_PATH = 'Link Bradesco'
   cnpj = []
   
   with open('config.json', 'r') as json_file:
